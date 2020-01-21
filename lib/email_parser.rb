@@ -19,35 +19,3 @@ class EmailAddressParser
     end.flatten.uniq
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# class EmailAddressParser
-#   attr_accessor :strings
-#
-#   def initialize(strings)
-#     @strings = strings
-#   end
-#
-#   def parse
-#     strings.split.collect do |address|
-#       address.split(',')
-#     end
-#     .flatten.uniq
-#   end
-# end
